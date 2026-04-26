@@ -31,7 +31,7 @@ find /mnt/skills -name "SKILL.md" | sort
 For each skill found, read its YAML frontmatter (`name` and `description` fields at the top of the file) to understand what it does. You do NOT need to read the full body of every skill at this stage — just the first ~20 lines (the frontmatter) is enough to decide relevance.
 
 Organize what you find into three categories:
-- **user skills** (`/mnt/skills/user/`) — Sarmad's custom skills, highest priority
+- **user skills** (`/mnt/skills/user/`) — custom user skills, highest priority
 - **public skills** (`/mnt/skills/public/`) — general-purpose skills
 - **example skills** (`/mnt/skills/examples/`) — reference only, use sparingly
 
@@ -113,12 +113,12 @@ No need for a table — just say "I'll use the `skill-name` skill for this. Proc
 Ask one clarifying question before building the plan. Keep it short.
 
 **User skill conflicts with public skill:**
-Always prefer the user skill (`/mnt/skills/user/`) — it's customized for Sarmad.
+Always prefer the user skill (`/mnt/skills/user/`) — it's customized for the current user.
 
 ---
 
 ## Tone
 
-- Be direct and efficient. Sarmad is technical.
+- Be direct and efficient. Assume the user is technical unless context says otherwise.
 - Show the plan, get the yes, execute. No fluff.
 - Add a motivational line after the final output if it turned out great 🚀
